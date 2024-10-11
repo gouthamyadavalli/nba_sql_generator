@@ -1,0 +1,468 @@
+[2024-10-11T18:46:24.743+0000] {manager.py:483} INFO - Processing files using up to 2 processes at a time 
+[2024-10-11T18:46:24.745+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2024-10-11T18:46:24.745+0000] {manager.py:486} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2024-10-11T18:46:24.745+0000] {manager.py:726} INFO - Searching for files in /opt/airflow/dags
+[2024-10-11T18:46:24.747+0000] {manager.py:729} INFO - There are 1 files in /opt/airflow/dags
+[2024-10-11T18:46:24.797+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/nba_data_pipeline.py     64  0.03s             0           0
+================================================================================
+[2024-10-11T18:46:55.290+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nba_data_pipeline.py    110  0.00s             0           1  0.07s           2024-10-11T18:46:24
+================================================================================
+[2024-10-11T18:47:25.634+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nba_data_pipeline.py    156  0.01s             0           1  0.03s           2024-10-11T18:46:55
+================================================================================
+[2024-10-11T18:47:56.215+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nba_data_pipeline.py                           0           1  0.06s           2024-10-11T18:47:53
+================================================================================
+[2024-10-11T18:48:02.611+0000] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2024-10-11T18:48:34.370+0000] {manager.py:483} INFO - Processing files using up to 2 processes at a time 
+[2024-10-11T18:48:34.373+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2024-10-11T18:48:34.373+0000] {manager.py:486} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2024-10-11T18:48:34.373+0000] {manager.py:726} INFO - Searching for files in /opt/airflow/dags
+[2024-10-11T18:48:34.377+0000] {manager.py:729} INFO - There are 1 files in /opt/airflow/dags
+[2024-10-11T18:48:34.433+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/nba_data_pipeline.py     44  0.04s             0           0
+================================================================================
+[2024-10-11T18:49:04.700+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nba_data_pipeline.py                           0           1  0.06s           2024-10-11T18:48:56
+================================================================================
+[2024-10-11T18:49:34.940+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nba_data_pipeline.py                           0           1  0.03s           2024-10-11T18:49:26
+================================================================================
+[2024-10-11T18:49:46.401+0000] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2024-10-11T18:50:10.229+0000] {manager.py:483} INFO - Processing files using up to 2 processes at a time 
+[2024-10-11T18:50:10.231+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2024-10-11T18:50:10.231+0000] {manager.py:486} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2024-10-11T18:50:10.232+0000] {manager.py:726} INFO - Searching for files in /opt/airflow/dags
+[2024-10-11T18:50:10.234+0000] {manager.py:729} INFO - There are 1 files in /opt/airflow/dags
+[2024-10-11T18:50:10.274+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/nba_data_pipeline.py     44  0.02s             0           0
+================================================================================
+[2024-10-11T18:50:40.523+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nba_data_pipeline.py     99  0.02s             0           1  0.03s           2024-10-11T18:50:10
+================================================================================
+[2024-10-11T18:51:10.815+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nba_data_pipeline.py    145  0.02s             0           1  0.07s           2024-10-11T18:50:40
+================================================================================
+[2024-10-11T18:51:18.693+0000] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2024-10-11T18:51:39.573+0000] {manager.py:483} INFO - Processing files using up to 2 processes at a time 
+[2024-10-11T18:51:39.575+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2024-10-11T18:51:39.575+0000] {manager.py:486} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2024-10-11T18:51:39.575+0000] {manager.py:726} INFO - Searching for files in /opt/airflow/dags
+[2024-10-11T18:51:39.578+0000] {manager.py:729} INFO - There are 1 files in /opt/airflow/dags
+[2024-10-11T18:51:39.626+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/nba_data_pipeline.py     44  0.03s             0           0
+================================================================================
+[2024-10-11T18:52:09.941+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nba_data_pipeline.py    100  0.04s             0           1  0.04s           2024-10-11T18:51:39
+================================================================================
+[2024-10-11T18:52:39.452+0000] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2024-10-11T18:53:56.054+0000] {manager.py:483} INFO - Processing files using up to 2 processes at a time 
+[2024-10-11T18:53:56.056+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2024-10-11T18:53:56.057+0000] {manager.py:486} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2024-10-11T18:53:56.057+0000] {manager.py:726} INFO - Searching for files in /opt/airflow/dags
+[2024-10-11T18:53:56.061+0000] {manager.py:729} INFO - There are 1 files in /opt/airflow/dags
+[2024-10-11T18:53:56.112+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/nba_data_pipeline.py     44  0.02s             0           0
+================================================================================
+[2024-10-11T18:54:26.391+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nba_data_pipeline.py     99  0.01s             0           1  0.03s           2024-10-11T18:53:56
+================================================================================
+[2024-10-11T18:54:56.718+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nba_data_pipeline.py    154  0.01s             0           1  0.09s           2024-10-11T18:54:26
+================================================================================
+[2024-10-11T18:55:27.132+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nba_data_pipeline.py                           0           1  0.04s           2024-10-11T18:55:20
+================================================================================
+[2024-10-11T18:55:57.564+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nba_data_pipeline.py                           0           1  0.06s           2024-10-11T18:55:36
+================================================================================
+[2024-10-11T18:56:27.869+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nba_data_pipeline.py                           0           1  0.06s           2024-10-11T18:56:06
+================================================================================
+[2024-10-11T18:56:58.195+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nba_data_pipeline.py                           0           1  0.07s           2024-10-11T18:56:37
+================================================================================
+[2024-10-11T18:57:28.494+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nba_data_pipeline.py                           0           1  0.06s           2024-10-11T18:57:07
+================================================================================
+[2024-10-11T18:57:58.807+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nba_data_pipeline.py                           0           1  0.08s           2024-10-11T18:57:37
+================================================================================
+[2024-10-11T18:58:29.139+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nba_data_pipeline.py                           0           1  0.05s           2024-10-11T18:58:07
+================================================================================
+[2024-10-11T18:58:56.436+0000] {manager.py:726} INFO - Searching for files in /opt/airflow/dags
+[2024-10-11T18:58:56.452+0000] {manager.py:729} INFO - There are 1 files in /opt/airflow/dags
+[2024-10-11T18:58:59.500+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nba_data_pipeline.py                           0           1  0.03s           2024-10-11T18:58:38
+================================================================================
+[2024-10-11T18:59:29.935+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nba_data_pipeline.py                           0           1  0.04s           2024-10-11T18:59:20
+================================================================================
+[2024-10-11T18:59:36.460+0000] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2024-10-11T19:02:10.505+0000] {manager.py:483} INFO - Processing files using up to 2 processes at a time 
+[2024-10-11T19:02:10.506+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2024-10-11T19:02:10.506+0000] {manager.py:486} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2024-10-11T19:02:10.506+0000] {manager.py:726} INFO - Searching for files in /opt/airflow/dags
+[2024-10-11T19:02:10.513+0000] {manager.py:729} INFO - There are 1 files in /opt/airflow/dags
+[2024-10-11T19:02:10.549+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/nba_data_pipeline.py     44  0.02s             0           0
+================================================================================
+[2024-10-11T19:02:40.831+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nba_data_pipeline.py     99  0.02s             0           1  0.03s           2024-10-11T19:02:10
+================================================================================
+[2024-10-11T19:03:11.146+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nba_data_pipeline.py    144  0.01s             0           1  0.07s           2024-10-11T19:02:40
+================================================================================
+[2024-10-11T19:03:41.386+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nba_data_pipeline.py    190  0.01s             0           1  0.04s           2024-10-11T19:03:11
+================================================================================
+[2024-10-11T19:04:05.643+0000] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2024-10-11T19:11:04.098+0000] {manager.py:483} INFO - Processing files using up to 2 processes at a time 
+[2024-10-11T19:11:04.104+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2024-10-11T19:11:04.104+0000] {manager.py:486} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2024-10-11T19:11:04.105+0000] {manager.py:726} INFO - Searching for files in /opt/airflow/dags
+[2024-10-11T19:11:04.118+0000] {manager.py:729} INFO - There are 1 files in /opt/airflow/dags
+[2024-10-11T19:11:04.173+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/nba_data_pipeline.py     64  0.02s             0           0
+================================================================================
+[2024-10-11T19:11:34.483+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nba_data_pipeline.py    119  0.01s             0           1  0.05s           2024-10-11T19:11:04
+================================================================================
+[2024-10-11T19:12:04.819+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nba_data_pipeline.py    156  0.02s             0           1  0.17s           2024-10-11T19:11:34
+================================================================================
+[2024-10-11T19:12:35.068+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nba_data_pipeline.py                           0           1  0.55s           2024-10-11T19:12:05
+================================================================================
+[2024-10-11T19:13:05.106+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nba_data_pipeline.py                           0           1  0.29s           2024-10-11T19:12:35
+================================================================================
+[2024-10-11T19:13:35.628+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nba_data_pipeline.py                           0           1  0.20s           2024-10-11T19:13:06
+================================================================================
+[2024-10-11T19:14:05.945+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nba_data_pipeline.py                           0           1  0.28s           2024-10-11T19:13:36
+================================================================================
+[2024-10-11T19:14:21.859+0000] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2024-10-11T19:18:01.876+0000] {manager.py:483} INFO - Processing files using up to 2 processes at a time 
+[2024-10-11T19:18:01.878+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2024-10-11T19:18:01.878+0000] {manager.py:486} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2024-10-11T19:18:01.878+0000] {manager.py:726} INFO - Searching for files in /opt/airflow/dags
+[2024-10-11T19:18:01.885+0000] {manager.py:729} INFO - There are 1 files in /opt/airflow/dags
+[2024-10-11T19:18:01.915+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/nba_data_pipeline.py     65  0.01s             0           0
+================================================================================
+[2024-10-11T19:18:32.148+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nba_data_pipeline.py                           0           1  0.97s           2024-10-11T19:18:02
+================================================================================
+[2024-10-11T19:19:02.393+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nba_data_pipeline.py                           0           1  0.26s           2024-10-11T19:18:33
+================================================================================
+[2024-10-11T19:19:33.132+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nba_data_pipeline.py                           0           1  0.20s           2024-10-11T19:19:03
+================================================================================
+[2024-10-11T19:20:03.349+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nba_data_pipeline.py                           0           1  0.18s           2024-10-11T19:20:01
+================================================================================
+[2024-10-11T19:20:33.940+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nba_data_pipeline.py                           0           1  0.28s           2024-10-11T19:20:31
+================================================================================
+[2024-10-11T19:21:04.378+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nba_data_pipeline.py                           0           1  0.30s           2024-10-11T19:21:02
+================================================================================
+[2024-10-11T19:21:34.875+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nba_data_pipeline.py                           0           1  0.27s           2024-10-11T19:21:33
+================================================================================
+[2024-10-11T19:22:05.186+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nba_data_pipeline.py                           1           0  1.71s           2024-10-11T19:22:05
+================================================================================
+[2024-10-11T19:22:20.181+0000] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2024-10-11T19:22:43.845+0000] {manager.py:483} INFO - Processing files using up to 2 processes at a time 
+[2024-10-11T19:22:43.847+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2024-10-11T19:22:43.847+0000] {manager.py:486} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2024-10-11T19:22:43.847+0000] {manager.py:726} INFO - Searching for files in /opt/airflow/dags
+[2024-10-11T19:22:43.854+0000] {manager.py:729} INFO - There are 2 files in /opt/airflow/dags
+[2024-10-11T19:22:43.910+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/nba_data_pipeline.py       45  0.03s             0           0
+/opt/airflow/dags/scripts/insert_data.py     44  0.04s             0           0
+================================================================================
+[2024-10-11T19:23:14.112+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/insert_data.py    101  0.04s             0           0  0.04s           2024-10-11T19:22:43
+/opt/airflow/dags/nba_data_pipeline.py                             1           0  0.45s           2024-10-11T19:22:44
+================================================================================
+[2024-10-11T19:23:44.198+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/insert_data.py    144  0.02s             0           0  0.08s           2024-10-11T19:23:14
+/opt/airflow/dags/nba_data_pipeline.py                             1           0  0.79s           2024-10-11T19:23:15
+================================================================================
+[2024-10-11T19:24:14.535+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/insert_data.py    201  0.01s             0           0  0.08s           2024-10-11T19:23:44
+/opt/airflow/dags/nba_data_pipeline.py                             1           0  0.63s           2024-10-11T19:23:46
+================================================================================
+[2024-10-11T19:24:29.748+0000] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2024-10-11T21:49:49.823+0000] {manager.py:483} INFO - Processing files using up to 2 processes at a time 
+[2024-10-11T21:49:49.825+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2024-10-11T21:49:49.825+0000] {manager.py:486} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2024-10-11T21:49:49.825+0000] {manager.py:726} INFO - Searching for files in /opt/airflow/dags
+[2024-10-11T21:49:49.837+0000] {manager.py:729} INFO - There are 2 files in /opt/airflow/dags
+[2024-10-11T21:49:49.970+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/nba_data_pipeline.py       45  0.09s             0           0
+/opt/airflow/dags/scripts/insert_data.py     46  0.08s             0           0
+================================================================================
+[2024-10-11T21:50:20.660+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/insert_data.py    113  0.01s             0           0  0.09s           2024-10-11T21:49:49
+/opt/airflow/dags/nba_data_pipeline.py                             1           0  1.12s           2024-10-11T21:49:50
+================================================================================
+[2024-10-11T21:50:25.850+0000] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15

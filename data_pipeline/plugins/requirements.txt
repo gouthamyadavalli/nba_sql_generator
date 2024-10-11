@@ -1,0 +1,3 @@
+psycopg2
+nba_api
+pandas

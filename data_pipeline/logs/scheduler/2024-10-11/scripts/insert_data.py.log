@@ -1,0 +1,30 @@
+[2024-10-11T19:22:43.881+0000] {processor.py:153} INFO - Started process (PID=44) to work on /opt/airflow/dags/scripts/insert_data.py
+[2024-10-11T19:22:43.882+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/scripts/insert_data.py for tasks to queue
+[2024-10-11T19:22:43.882+0000] {logging_mixin.py:137} INFO - [2024-10-11T19:22:43.882+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/insert_data.py
+[2024-10-11T19:22:43.886+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/insert_data.py
+[2024-10-11T19:22:43.908+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/scripts/insert_data.py took 0.030 seconds
+[2024-10-11T19:23:14.119+0000] {processor.py:153} INFO - Started process (PID=101) to work on /opt/airflow/dags/scripts/insert_data.py
+[2024-10-11T19:23:14.120+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/scripts/insert_data.py for tasks to queue
+[2024-10-11T19:23:14.121+0000] {logging_mixin.py:137} INFO - [2024-10-11T19:23:14.121+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/insert_data.py
+[2024-10-11T19:23:14.125+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/insert_data.py
+[2024-10-11T19:23:14.137+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/scripts/insert_data.py took 0.022 seconds
+[2024-10-11T19:23:44.219+0000] {processor.py:153} INFO - Started process (PID=144) to work on /opt/airflow/dags/scripts/insert_data.py
+[2024-10-11T19:23:44.224+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/scripts/insert_data.py for tasks to queue
+[2024-10-11T19:23:44.225+0000] {logging_mixin.py:137} INFO - [2024-10-11T19:23:44.225+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/insert_data.py
+[2024-10-11T19:23:44.231+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/insert_data.py
+[2024-10-11T19:23:44.248+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/scripts/insert_data.py took 0.041 seconds
+[2024-10-11T19:24:14.541+0000] {processor.py:153} INFO - Started process (PID=201) to work on /opt/airflow/dags/scripts/insert_data.py
+[2024-10-11T19:24:14.542+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/scripts/insert_data.py for tasks to queue
+[2024-10-11T19:24:14.543+0000] {logging_mixin.py:137} INFO - [2024-10-11T19:24:14.542+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/insert_data.py
+[2024-10-11T19:24:14.546+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/insert_data.py
+[2024-10-11T19:24:14.555+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/scripts/insert_data.py took 0.017 seconds
+[2024-10-11T21:49:49.915+0000] {processor.py:153} INFO - Started process (PID=46) to work on /opt/airflow/dags/scripts/insert_data.py
+[2024-10-11T21:49:49.921+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/scripts/insert_data.py for tasks to queue
+[2024-10-11T21:49:49.922+0000] {logging_mixin.py:137} INFO - [2024-10-11T21:49:49.922+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/insert_data.py
+[2024-10-11T21:49:49.928+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/insert_data.py
+[2024-10-11T21:49:49.967+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/scripts/insert_data.py took 0.064 seconds
+[2024-10-11T21:50:20.684+0000] {processor.py:153} INFO - Started process (PID=113) to work on /opt/airflow/dags/scripts/insert_data.py
+[2024-10-11T21:50:20.690+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/scripts/insert_data.py for tasks to queue
+[2024-10-11T21:50:20.695+0000] {logging_mixin.py:137} INFO - [2024-10-11T21:50:20.694+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/insert_data.py
+[2024-10-11T21:50:20.746+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/insert_data.py
+[2024-10-11T21:50:20.770+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/scripts/insert_data.py took 0.103 seconds

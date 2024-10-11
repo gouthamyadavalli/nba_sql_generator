@@ -1,0 +1,38 @@
+[2024-10-11T19:23:18.514+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: nba_data_pipeline.create_tables scheduled__2023-10-03T00:00:00+00:00 [queued]>
+[2024-10-11T19:23:18.529+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: nba_data_pipeline.create_tables scheduled__2023-10-03T00:00:00+00:00 [queued]>
+[2024-10-11T19:23:18.534+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2024-10-11T19:23:18.536+0000] {taskinstance.py:1280} INFO - Starting attempt 1 of 2
+[2024-10-11T19:23:18.536+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2024-10-11T19:23:18.632+0000] {taskinstance.py:1300} INFO - Executing <Task(PythonOperator): create_tables> on 2023-10-03 00:00:00+00:00
+[2024-10-11T19:23:18.649+0000] {standard_task_runner.py:55} INFO - Started process 141 to run task
+[2024-10-11T19:23:18.661+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'nba_data_pipeline', 'create_tables', 'scheduled__2023-10-03T00:00:00+00:00', '--job-id', '19', '--raw', '--subdir', 'DAGS_FOLDER/nba_data_pipeline.py', '--cfg-path', '/tmp/tmpdw905qtc']
+[2024-10-11T19:23:18.666+0000] {standard_task_runner.py:83} INFO - Job 19: Subtask create_tables
+[2024-10-11T19:23:18.797+0000] {task_command.py:388} INFO - Running <TaskInstance: nba_data_pipeline.create_tables scheduled__2023-10-03T00:00:00+00:00 [running]> on host eccc01d8c48f
+[2024-10-11T19:23:18.896+0000] {taskinstance.py:1509} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=nba_data_pipeline
+AIRFLOW_CTX_TASK_ID=create_tables
+AIRFLOW_CTX_EXECUTION_DATE=2023-10-03T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-10-03T00:00:00+00:00
+[2024-10-11T19:23:18.899+0000] {logging_mixin.py:137} INFO - Error: could not connect to server: Connection refused
+	Is the server running on host "localhost" (127.0.0.1) and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Cannot assign requested address
+	Is the server running on host "localhost" (::1) and accepting
+	TCP/IP connections on port 5432?
+[2024-10-11T19:23:18.900+0000] {taskinstance.py:1768} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 175, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 192, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/scripts/create_tables.py", line 75, in create_tables
+    if conn is not None:
+UnboundLocalError: local variable 'conn' referenced before assignment
+[2024-10-11T19:23:18.929+0000] {taskinstance.py:1323} INFO - Marking task as UP_FOR_RETRY. dag_id=nba_data_pipeline, task_id=create_tables, execution_date=20231003T000000, start_date=20241011T192318, end_date=20241011T192318
+[2024-10-11T19:23:18.941+0000] {standard_task_runner.py:105} ERROR - Failed to execute job 19 for task create_tables (local variable 'conn' referenced before assignment; 141)
+[2024-10-11T19:23:18.970+0000] {local_task_job.py:208} INFO - Task exited with return code 1
+[2024-10-11T19:23:19.014+0000] {taskinstance.py:2578} INFO - 0 downstream tasks scheduled from follow-on schedule check
