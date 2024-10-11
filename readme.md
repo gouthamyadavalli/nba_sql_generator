@@ -26,33 +26,44 @@ The NBA Assistant Coach project is designed to simplify and enhance the process 
 ## Project Structure
 Here's an overview of the project's folder structure:
 
-```
-nba_assistant_project/
-│
 
-├── query_engine 
-    |    app/
-│   ├── main_app.py               # Streamlit UI for user interaction
-│   └── sql_executor.py           # Executes the SQL queries and displays results
-│
-|    ├── langchain_pipeline/
-|   │   ├── langchain_integration.py  # LangChain logic to generate SQL queries using Groq LLM
-|   │   └── prompts.py                # Contains prompt templates for the LLM
-│
-├── data_pipeline/
-│   ├── airflow_dags/
-│   │   └── nba_data_pipeline.py  # Airflow DAG for data ingestion and processing
-│   ├── scripts/
-│   │   ├── fetch_data.py         # Script for fetching data from the NBA API
-│   │   ├── create_tables.py      # Script for creating database tables
-│   │   ├── insert_data.py        # Script for inserting data into tables
-│   └── README.md                 # Documentation for the data engineering component
-│
-├── config/
-│   ├── db_config.py              # Configuration file for database connection
-│   └── llm_config.py             # Configuration file for Groq API key and settings
-│
-└── README.md                     # Project documentation
+```
+📦 nba_sql_generator
+├─ .gitignore
+├─ data_pipeline
+│  ├─ __init__.py
+│  ├─ config
+│  │  ├─ __init__.py
+│  │  └─ config.py
+│  ├─ dags
+│  │  ├─ config
+│  │  │  └─ config.py
+│  │  ├─ nba_data_pipeline.py
+│  │  └─ scripts
+│  │     ├─ __init__.py
+│  │     ├─ create_tables.py
+│  │     ├─ fetch_data.py
+│  │     └─ insert_data.py
+│  ├─ docker-compose.yaml
+│  │  ├─ dag_processor_manager
+│  │  │  └─ dag_processor_manager.log
+│  └─ plugins
+│     └─ requirements.txt
+├─ query_engine
+│  ├─ __init__.py
+│  ├─ app
+│  │  ├─ __init__.py
+│  │  ├─ langchain_pipeline
+│  │  │  ├─ __init__.py
+│  │  │  ├─ langchain_integration.py
+│  │  │  ├─ prompts.py
+│  │  │  └─ sql_engine.py
+│  │  └─ main_app.py
+│  └─ config
+│     └─ __init__.py
+├─ readme.md
+├─ requirements.txt
+└─ sample.ipynb
 ```
 
 ## Features
@@ -82,8 +93,8 @@ The Airflow DAG (`nba_data_pipeline.py`) defines the sequence of tasks required 
 1. **Set Up Airflow**: Ensure you have Apache Airflow installed and configured on your system.
 2. **Start the Airflow Services**:
    ```bash
-   airflow webserver -p 8080
-   airflow scheduler
+   cd data_pipeline
+   docker compose up
    ```
 3. **Deploy the DAG**: Place the `nba_data_pipeline.py` file in the `dags/` directory of your Airflow setup.
 4. **Trigger the Pipeline**: Use the Airflow UI to trigger the pipeline and monitor the tasks' execution.
@@ -160,8 +171,3 @@ Contributions are welcome! Please follow these steps:
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 ```
-
-### Key Updates
-- **Data Engineering Pipeline Section**: Added a detailed explanation of the data engineering component using Apache Airflow.
-- **How to Run the Pipeline**: Step-by-step instructions on setting up and running the Airflow data pipeline.
-- **Project Structure**: Included a detailed folder layout for the data engineering component.
