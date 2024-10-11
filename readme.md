@@ -99,7 +99,7 @@ The Airflow DAG (`nba_data_pipeline.py`) defines the sequence of tasks required 
 3. **Deploy the DAG**: Place the `nba_data_pipeline.py` file in the `dags/` directory of your Airflow setup.
 4. **Trigger the Pipeline**: Use the Airflow UI to trigger the pipeline and monitor the tasks' execution.
 
-For more details, see the `data_engineering/README.md` file in the project directory.
+![image info](./images/airflow.png)
 
 ## Getting Started
 ### Prerequisites
@@ -145,6 +145,10 @@ Ensure you have the following installed:
 3. **View Results**
    - **Tabular Display**: The query results will be shown in a table.
    - **Summarized Answer**: A concise summary will provide a quick interpretation of the data.
+
+   ![image info](./images/UI1.png)
+
+   ![image info](./images/UI2.png)
 
 ## Technologies Used
 - **Python**: Core programming language used for backend logic.
